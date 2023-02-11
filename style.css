@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(51, 63, 67);
+}
+
+.list .container {
+    height: 160px;
+    width: 150px;
+    margin: 10px;
+    border-radius: 7px;
+    border: 3px solid black;
+}
+
+.list{
+    background-color: rgba(84, 125, 106, 0.417);
+    margin: 5px;
+    border-radius: 12px;
+    border: 3px inset black;
+}
+
+.list span{
+    padding: 40px;
+    font-size: 20px;
+    color: rgb(8, 3, 12);
+    font-weight: bolder;
+    height: 20px;
+    width: 30px;
+}
+
+ul{
+    display : flex;
+    align-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.list:hover{
+    background-color: rgba(84, 125, 106, 0.417);
+    translate: 4px 4px 100px;
+}
+
+input{
+    margin-top: 15px;
+    margin-left: 50%;
+    margin-right: 50%;
+    height: 30px;
+    border-radius: 5px;
+    width: 120px;
+    text-align: center;
+    font-weight: bold;
+}
+
+input:hover{
+    translate: 1.5px 1px 100px;
+}
